@@ -20,7 +20,7 @@ function wp_modify_uploaded_file_names($file) {
     $new_file_mime = mime_content_type( $profilepicture['tmp_name'] );
 
     if( empty( $profilepicture ) )
-        die( 'File is not selected.' );
+        die( 'File is not selected test.' );
 
     if( $profilepicture['error'] )
         die( $profilepicture['error'] );
